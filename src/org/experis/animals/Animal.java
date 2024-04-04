@@ -10,6 +10,13 @@ public abstract class Animal {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "Animal {" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
     public void dormi() { // (mostra a video “Zzz”)
         System.out.println("Zzz");
     }

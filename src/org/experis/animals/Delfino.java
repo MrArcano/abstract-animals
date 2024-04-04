@@ -6,6 +6,11 @@ public class Delfino extends Animal implements Nuotante {
     }
 
     @Override
+    public String toString() {
+        return super.toString() + " - Delfino";
+    }
+
+    @Override
     public void verso() {
         System.out.println("fiiiiiiiiii");
     }

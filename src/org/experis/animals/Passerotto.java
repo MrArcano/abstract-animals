@@ -7,6 +7,11 @@ public class Passerotto extends Animal implements Volante {
     }
 
     @Override
+    public String toString() {
+        return super.toString() + " - Passerotto";
+    }
+
+    @Override
     public void verso() {
         System.out.println("cip cip");
     }

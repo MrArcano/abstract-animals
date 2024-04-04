@@ -6,6 +6,11 @@ public class Cane extends Animal{
     }
 
     @Override
+    public String toString() {
+        return super.toString() + " - Cane";
+    }
+
+    @Override
     public void verso() {
         System.out.println("bau bau");
     }

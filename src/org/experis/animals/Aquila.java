@@ -6,6 +6,11 @@ public class Aquila extends Animal implements Volante {
     }
 
     @Override
+    public String toString() {
+        return super.toString() + " - Aquila";
+    }
+
+    @Override
     public void verso() {
         System.out.println("skreeee");
     }
