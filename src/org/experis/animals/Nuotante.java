@@ -1,5 +1,5 @@
 package org.experis.animals;
 
-public interface CanSwim {
+public interface Nuotante {
     public void nuota();
 }

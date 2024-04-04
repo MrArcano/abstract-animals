@@ -1,6 +1,6 @@
 package org.experis.animals;
 
-public class Aquila extends Animal implements CanFly{
+public class Aquila extends Animal implements Volante {
     public Aquila(String name) {
         super(name);
     }

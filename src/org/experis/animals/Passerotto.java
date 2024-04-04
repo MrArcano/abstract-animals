@@ -1,6 +1,6 @@
 package org.experis.animals;
 
-public class Passerotto extends Animal implements CanFly{
+public class Passerotto extends Animal implements Volante {
 
     public Passerotto(String name) {
         super(name);

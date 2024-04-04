@@ -1,6 +1,6 @@
 package org.experis.animals;
 
-public class Delfino extends Animal implements CanSwim{
+public class Delfino extends Animal implements Nuotante {
     public Delfino(String name) {
         super(name);
     }

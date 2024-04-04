@@ -1,6 +1,5 @@
 package org.experis.animals;
 
-public interface CanFly {
+public interface Volante {
     public void vola();
-
 }
